@@ -45,8 +45,8 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
         } 
     
 
-  const Dishdetail = (props) => {
-      if (props.dish != null) 
+const Dishdetail = (props) => {
+    if (props.dish != null) {
         return(
             <div className="container">
                 <div className="row">
@@ -55,12 +55,12 @@ import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
                 </div>
             </div>
         );
-        else {
-            return(
-                <div></div>
-            );
-        }
+    } else {
+        return(
+            <div></div>
+        );
     }
+}
 
 
 export default Dishdetail;
