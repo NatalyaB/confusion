@@ -57,7 +57,7 @@ const Dishdetail = (props) => {
         );
     } else {
         return(
-            <div></div>
+            null
         );
     }
 }
