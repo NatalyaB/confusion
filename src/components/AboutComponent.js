@@ -1,15 +1,9 @@
 import React from 'react';
 import RenderLeader from './RenderLeaderComponent';
-import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader, Media } from 'reactstrap';
+import { Breadcrumb, BreadcrumbItem, Card, CardBody, CardHeader } from 'reactstrap';
 import { Link } from 'react-router-dom';
 
 function About(props) {
-
-    const leaders = props.leaders.map((leader) => {
-        return (
-            <p>Leader {leader.name}</p>
-        );
-    });
 
     return(
         <div className="container">
